@@ -10,10 +10,14 @@ terraform {
 provider "google" {
   project = "tfgcpdemo-99383"
 }
-/*
+
 resource "google_storage_bucket" "example123_bucket" {
   name     = "storage-tfgcpdemo123-99383"
   location = "US"
 }
-*/
+resource "google_storage_bucket" "example1234_bucket" {
+  name     = "storage-tfgcpdemo1234-99383"
+  location = "US"
+}
+
 
