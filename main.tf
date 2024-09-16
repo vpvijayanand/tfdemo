@@ -16,3 +16,6 @@ resource "google_storage_bucket" "example_bucket" {
   location = "US"
 }
 */
+resource "google_compute_network" "vpc_network" {
+  name = "terraform-network"
+}
